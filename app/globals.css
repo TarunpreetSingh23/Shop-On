@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.scroll-marquee {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scrollText 15s linear infinite;
+}
+.animate-fade-in {
+  animation: fadeIn 0.4s ease-in-out;
+}
