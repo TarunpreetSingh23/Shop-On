@@ -23,8 +23,8 @@ export async function POST(req) {
     });
 
     console.log(" New User Registered:", username, email);
-     sendLoginEmail(email,"new register -Shop ON",`<h2>Hello ${username},</h2>
-       <p>Thank you for registering at <b>Shop ON</b>. We are excited to serve you!</p>`)
+     // sendLoginEmail(email,"new register -Shop ON",`<h2>Hello ${username},</h2>
+     //   <p>Thank you for registering at <b>Shop ON</b>. We are excited to serve you!</p>`)
 
     return NextResponse.json({ message: "Register success", user: newUser }, { status: 201 });
   } catch (error) {
