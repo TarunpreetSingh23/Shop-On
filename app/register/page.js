@@ -58,8 +58,8 @@ const Signup = () => {
         password,
       });
      
-      
-      setTimeout(() => router.push("/"), 1000);
+      router.push("/")
+      // setTimeout(() => router.push("/"), 1000);
      
     }
   };
