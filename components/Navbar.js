@@ -134,7 +134,7 @@ const Navbar = () => {
                 Logout
               </button>
               <Link href={"/user"}>
-                <button className="text-gray-800 flex gap-1 bg-blue-50 hover:bg-gradient-to-l text-sm py-2 rounded-full px-4">
+                <button className="text-gray-800 flex gap-1 bg-blue-50 hover:bg-gradient-to-l text-sm py-3 rounded-full px-4">
                   <FaUser  className="translate-y-1"/><span className="hidden  sm:inline">{session?.user?.name}</span>
                 </button>
               </Link>
