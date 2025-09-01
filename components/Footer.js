@@ -7,7 +7,7 @@ import { IoBagHandle } from "react-icons/io5";
 const Footer = (e) => {
 
   return (
-    <footer className="bg-gray-900 text-gray-300 py-10 px-4 md:px-20">
+    <footer className="bg-red-900 text-gray-300 py-10 px-4 md:px-20">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-gray-700 pb-8">
       
         <div className="space-y-4">
